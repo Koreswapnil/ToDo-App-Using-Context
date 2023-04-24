@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1a1a1a;
+}
+
+code{
+  font-family: source-code-pro, Menlon, Consolas, 'Courier New';
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-task{
+  width: 80%;
+  height: 50px;
+  background-color: #1a1a1a;
+  border: 1px solid #fff;
+  margin: 60px 0px 20px 0px;
+  display: flex;
+  padding: 5px 20px;
+  gap: 10px;
+}
+
+
+.add-task-input{
+  flex: 2;
+  border-radius: 7px;
+  padding: 10px 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #fff ;
+  color: #fff;
+}
+
+.btn{
+  border-radius: 7px;
+  padding: 10px 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #fff ;
+  color: #fff;
+}
+
+.task-wrapper{
+  width: 80%;
+  height: auto;
+  min-height: 80px;
+  border: 1px solid #fff;
+  gap: 50px;
+}
+
+.task{
+  display: flex;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.task p{
+  flex:2;
+  color: #fff;
+}
+
+.strike-through{
+  text-decoration: line-through;
+}
+
+.task-header{
+  background-color: bisque;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.task input{
+  flex: 2;
+  width: 100%;
+  color: #1a1a1a;
+  padding: 5px;
+}
+
+.task i{
+  padding: 5px;
+}
+
+.home-container{
+  color: #fff;
+  padding: 10px 15px
+}
+.home-container button{
+  padding: 10px 15px
+}
+
+.default-page-container{
+  color: #fff;
+  margin-top: 100px;
+}
